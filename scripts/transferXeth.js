@@ -11,7 +11,7 @@ function transferXeth(from, to, amount) {
     var gas = new BigNumber(21000);
     var price = web3.eth.gasPrice;  // current average price; or set your own
     var balance = new BigNumber(amount); 
-    var value = balance - (gas *price);
+    var value = balance - (gas * price);
     if (value > 0) {
         var txn = eth.sendTransaction({from: from, to: to, gasPrice: price, gas: gas, value: value});
         console.log("  Transfer", from, "to", to, ":", txn);
