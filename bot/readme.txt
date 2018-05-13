@@ -1,0 +1,2 @@
+loadScript("bot/adressList.js");
+
