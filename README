@@ -1,0 +1,6 @@
+these are scripts that can be used in geth consoles
+$ sudo geth attach myDataDir/geth.ipc
+> loadScript("a_bot.js");
+
+then run them according comments
+
