@@ -9,7 +9,8 @@
  */
 function transferXeth(from, to, amount) {
     var gas = new BigNumber(21000);
-    var price = web3.eth.gasPrice;  // current average price; or set your own
+  //var price = web3.eth.gasPrice;  // current average price; or set your own
+    var price new BigNumber(125000);
     var balance = new BigNumber(amount); 
     var value = balance - (gas * price);
     if (value > 0) {
