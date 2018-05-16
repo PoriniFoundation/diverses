@@ -14,6 +14,7 @@ loadScript("bot/adressList.js");
 loadScript("bot/playground/randomNumber1.js");
 loadScript("wallet/outkomma.txt");
 loadScript("bot/randomNumber2.js");
+loadScript("bot/randomNumber1.js");
 loadScript("scripts/transferXeth.js");
 loadScript("scripts/wait.js");
 loadScript("scripts/createNaccount.js");
