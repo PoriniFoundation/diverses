@@ -23,9 +23,9 @@ var maxNumber = 11;
 var howManyAccounts = eth.accounts.length;
 var howManyAccounts = maxNumber; // comment this line if you want to have all of them
 
-  for(var i = 0; i < howManyAccounts; i = i +1)
+//  for(var i = 0; i < howManyAccounts; i = i +1)
 
-    {
+//    {
        var amount2transfer = randomNumber1[i] * amountInWei ;
 //       console.log("multiply amount in Ether " + amountInWei/1e18);
 //      console.log("i = " + i);
@@ -42,6 +42,6 @@ var howManyAccounts = maxNumber; // comment this line if you want to have all of
   transferXeth(eth.accounts[0],eth.accounts[x],amount2transfer); 
  
    };
-   } 
+//   } 
 };
 
