@@ -15,7 +15,7 @@ function bot1_10(amountInWei,waitMilisecs,howManyTransactions,beginRange,endRang
 if(unlockingFirstYN) console.log("unlocking a total of accounts activated");
 if(unlockingFirstYN) console.log("unlocking account ranges from " + beginRange + " to " + endRange);
  console.log("number of planned transactions " + howManyTransactions);
- console.log("estimate number of transactions per Block (max 250)" + ( 150000 / (1 + waitMilisecs)) );  
+ console.log("estimate number of transactions per Block (max 250)" + ( 15000 / (1 + waitMilisecs)) );  
 
 
 personal.unlockAccount(eth.coinbase,"Kennwort")
