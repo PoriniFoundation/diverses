@@ -14,7 +14,7 @@ function transferXeth(from, to, amount) {
     var value = balance - (gas * price);
     if (value > 0) {
         var txn = eth.sendTransaction({from: from, to: to, gasPrice: price, gas: gas, value: value});
-        console.log("  Transfer", from, "to", to, ":", txn);
+        console.log("  Transfer", from, "to", to, ":", txn, " ", amount, " ETH");
         return txn;
     }
     console.log("  Transfer "+ from +" to "+ to +": (No funds available)");
