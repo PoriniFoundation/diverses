@@ -11,6 +11,7 @@ loadScript("bot/randomNumber1.js");
 loadScript("scripts/transferXeth.js");
 loadScript("scripts/wait.js");
 loadScript("scripts/createNaccount.js");
+loadScript("scripts/transferEntireBalance.js");
 
 
 var maxNumber = 11;
