@@ -12,10 +12,14 @@ loadScript("scripts/transferXeth.js");
 loadScript("scripts/wait.js");
 loadScript("scripts/createNaccount.js");
 loadScript("scripts/transferEntireBalance.js");
+loadScript("scripts/unlockAccountsBE.js");
 
 
 var maxNumber = 11;
 var howManyAccounts = eth.accounts.length;
+
+unlockAccountsBE(0,howManyAccounts);   
+
    for(var x = 0; x < howManyAccounts; x = x + 1)
     { 
 //  var amount2transfer = (randomNumber1[x+5] * randomNumber1[x+1] * (amountInWei / 1000000)) ;
